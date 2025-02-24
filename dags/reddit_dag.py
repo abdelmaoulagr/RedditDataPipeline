@@ -1,9 +1,12 @@
-import datetime from datetime
-import airflow from DAG 
 import os 
 import sys 
+from datetime import datetime
 
+from airflow import DAG 
+from airflow.operators.python import PythonOperator
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
+from pipelines.reddit_pipeline import reddit_pipeline
 
 default_args={
     'owner':'Abdel Maoula',
@@ -29,5 +32,6 @@ extract= PythonOperator(
         'subreddit':'dataengineering',
         'time_fiter':'day',
         'limit':100
-    }
+    },
+    dag=dag
 )
