@@ -1,0 +1,442 @@
+id,title,selftext,score,num_comments,author,created_utc,url,over_18,edited,spoiler,stickied
+1ix8r5u,Best Data Engineering 'Influencers',"I am wondering, what are your favourite data engineering 'influencers' (I know this term has a negative annotation)?  
+In other words what persons' blogs/YouTube channels/podcasts do you like yourself and would you recommend to others? For example I like: Seattle Data Guy, freeCodeCamp, Tech With Tim",197,82,mrbartuss,2025-02-24 18:13:53,https://www.reddit.com/r/dataengineering/comments/1ix8r5u/best_data_engineering_influencers/,False,False,False,False
+1ix7wux,Am I even a data engineer anymore?,"I've been working as a database architect and data engineer since 2008, so over 15 years of experience.
+
+My first job was a solutions architect and data engineer consultant doing data warehouse consulting from 2008-2017. I mostly built star schemas, and ETL pipelines using SSIS or just raw SQL from SQL server to SQL server instances. Then put tableau or whatever the client said wanted on top 
+
+My current job I've been with since 2017. I built our entire enterprise DB in AzureSQL,l. I write all database code and handle performance and tuning and work with the C-suite to translate storage requirements to the software engineering team. I developed the majority of our API and handle all SQL development work required for data processing in the DB or procedures required by the devs.
+
+I've also built our reporting solution via some simple views that feed into PowerBI via a star schema. My job title here is both data engineer and database architect.
+
+I get deeply involved in the businesses and subject matter.
+
+I'm getting paid shit and finding myself bored and frustrated with my current situation and want to move on. 
+
+Looking at job openings for data engineering positions in finding the technical requirements have gone beyond the stagnating technologies we have been using for the past 7 years. My current company simply doesn't want to take the time or money to modernize it's analytics stack. It's very frustrating 
+
+I do understand the high level workflows for ELT pipelines and medallion architecture (which I've been unknowingly using for years). I understand data lakes and delta tables, I have familiarity with Apache spark and the pandas library but none of these I've ever gotten a chance to gain experience with in a production environment. 
+
+But most postings are looking for BigQuery, DBT, Airflow, Snowflake, Databricks experience. Things like that. I'd love to work with these technologies, the positions sound great and I'm sure my extensive experience and grasp of high level concepts would make me a good candidate
+
+But I feel like I'm stuck in a paradox of not having the required skill set to meet the posting criteria but not having a way to gain experience with the required technologies due to my current stagnant job situation.
+
+So I have to ask,am I even a data engineer anymore? It's pretty depressing for me to see data engineering positions listed with requirements I've never touched. How would somebody like myself move into one of these modern positions?
+So looking at these requirements I'm not even sure where my skill set lines any more. Am I even a data engineer?",167,66,ZeppelinJ0,2025-02-24 17:41:19,https://www.reddit.com/r/dataengineering/comments/1ix7wux/am_i_even_a_data_engineer_anymore/,False,False,False,False
+1ixkc0j,Microsoft doesn't think all customers deserve access,"[Reposting](https://www.reddit.com/r/MicrosoftFabric/comments/1ixjnjo/according_to_fabric_quotas_not_all_paying/) here from r/MicrosoftFabric because I want to know whether others have experienced the same treatment...
+
+Fabric Quotas launched today, and I've never felt more insulted as a customer. The [blog post](https://blog.fabric.microsoft.com/en-US/blog/announcing-the-launch-of-microsoft-fabric-quotas/) reads like corporate-speak for ""we didn't allocate enough infrastructure, so only big spenders get full access.""
+
+https://preview.redd.it/vechufma57le1.png?width=640&format=png&auto=webp&s=dd3cfa1e2628e124f9a97c1f7c70448c8855fe32
+
+They straight up admit in their blog post that they have capacity constraints and need to ""prioritize paid customers based on their value"" Then they explain how it works with this example:
+
+""I have 2 F64 capacities provisioned. If I need to provision a larger capacity or scale up my capacity, I need to make a request to adjust my quota."" followed by: ""Microsoft manages the upper limit for a quota request based on the Azure subscription type... Depending on my subscription's upper limit, my request could be automatically rejected.""
+
+So even though you're shelling out cash, you might get the door slammed in your face because your plan isn't fancy enough.
+
+The blog tries to spin this by saying it ""enhances your experience"" with better resource management. Really, it feels more like they're rationing because they didn't plan well and are now calling it a feature.
+
+I've tolerated their mediocre support and overlooked the long waits since I know my company won't pay for better support. But this is different.
+
+This feels like Microsoft is straight up telling me and other customers that we matter less.
+
+Quotas themselves aren't the problem. Capacity planning is hard. But talking down to us while forcing us to migrate our SKUs to a product that can't handle usage beyond Trial capacities is just flat out disrespectful.
+
+If your flagship offering can't scale with demand, maybe it's not ready for prime time.",106,32,Worth_Carpenter_8196,2025-02-25 02:32:30,https://www.reddit.com/r/dataengineering/comments/1ixkc0j/microsoft_doesnt_think_all_customers_deserve/,False,False,False,False
+1ixbrkc,"Why We Moved from SQLite to DuckDB: 5x Faster Queries, ~80% Less Storage",,100,16,leqote,2025-02-24 20:16:45,https://trytrace.app/blog/migrating-from-sqlite-to-duckdb/,False,False,False,False
+1ixvltu,Why we're building for on-prem,"Full disclosure: I'm on the Oxla team—we're building a self-hosted OLAP database and query engine.
+
+In our latest blog post, our founder shares why we're doubling down on on-prem data warehousing: [https://www.oxla.com/blog/why-were-building-for-on-prem](https://www.oxla.com/blog/why-were-building-for-on-prem)
+
+We're genuinely curious to hear from the community: have you tried self-hosting modern OLAP like ClickHouse or StarRocks on-prem? How was your experience?
+
+Also, what challenges have you faced with more legacy on-prem solutions? In general, what's worked well on-prem in your experience?",28,9,marek_nalikowski,2025-02-25 13:58:44,https://www.reddit.com/r/dataengineering/comments/1ixvltu/why_were_building_for_onprem/,False,False,False,False
+1ix8dla,AI hampered by the basics,"AI must be near peak hype cycle now.  I've been reading up on agentic behaviour and what AI uses to decide if a function is useful for answering a particular question.
+
+I have a nagging feeling that adoption of AI and agents is going run smack bang into some fundamental issues.
+
+Unsexy it may be but data quality is a perenial problem.
+The metadata and documentation used by Agentic AI just isn't there. We've had the capability to attach useful business descriptions to DB objects for decades, but I've rarely seen it used.
+
+My concern is that the subtext of some really interesting stuff is ""If you do these things you have always resolutely refused to do then AI can solve all your poblems"".
+
+Am I worrying unnecessarily?",15,4,LargeSale8354,2025-02-24 17:59:43,https://www.reddit.com/r/dataengineering/comments/1ix8dla/ai_hampered_by_the_basics/,False,False,False,False
+1ixmv4d,"Did anyone of you transition to AI Engineering or anything similar recently, given the burst in it?","I'm a grad student graduating soon, I have been wondering how close or easy is it to transition to AI Engineering. I do have a DS Background, not really with LLMs though. I have really good experience with DE.",14,23,NefariousnessSea5101,2025-02-25 04:43:46,https://www.reddit.com/r/dataengineering/comments/1ixmv4d/did_anyone_of_you_transition_to_ai_engineering_or/,False,False,False,False
+1ixd8jq,Resources for GIS domain,"I might be getting a job as a DE in a team that works mainly with geospatial data. I have never worked with GIS or geospatial data before, so I'm looking for a resource (free) to fix my knowledge gap a tad. 
+
+Any of you work in this domain and got some good reccs? ",9,8,LoVaKo93,2025-02-24 21:15:56,https://www.reddit.com/r/dataengineering/comments/1ixd8jq/resources_for_gis_domain/,False,False,False,False
+1ixn90o,Dataiku vs Databricks best for large enterprise?,"I am interested in your experience of these two platforms in a large enterprise environment.
+
+Which one is better any why? Which is better for on prem?  ",8,19,Kaiju_Godz,2025-02-25 05:06:19,https://www.reddit.com/r/dataengineering/comments/1ixn90o/dataiku_vs_databricks_best_for_large_enterprise/,False,False,False,False
+1ixumpy,Lost in Translation: Data without Context is a Body Without a Brain,,5,0,growth_man,2025-02-25 13:11:33,https://moderndata101.substack.com/p/lost-in-translation-data-without-context,False,False,False,False
+1ix7q17,Query-log-driven approach to data modeling,"Hi colleagues! Let me share an interesting approach I developed for improving our data warehouse. The thing is, I've been trying to make our DWH development more data-driven by actually analyzing how people use or misuse our data warehouse and started looking at query logs to guide our decisions. I'm interested to hear if anyone else has experimented with similar methods, or if you have any thoughts on this strategy.  
+  
+First, some context: At our company, we use ClickHouse as our analytical database and dbt for analytics engineering. When I joined this startup as a data engineer, I inherited:
+
+\- A functioning but hastily built dbt project
+
+\- Major gaps in the dbt project - many important tables and transformations weren't modeled at all
+
+\- Tons of ""rogue"" views living outside the dbt project, without any tests
+
+\- Multiple dashboards dependent on these unchecked views
+
+\- Some analytics built on top of backend models that also exist outside of dbt
+
+To tackle this, I took an interesting approach: to analyze our query logs to understand how analysts and technical users actually interact with our data warehouse. This led me to develop a CLI tool that:
+
+1. Automates query log analysis with flexible filtering:
+
+   \- By query type (SELECT, INSERT, etc.)
+
+   \- By user (who's running what)
+
+   \- By referenced tables and dbt models
+
+   \- Ranked by execution time or resource usage
+
+
+
+2. Uses LLMs to help generate semi-prepared dbt models for uncovered entities
+
+Here's a real example of how this helped me recently: An analyst reported that their dashboard was timing out. Using the tool, I quickly filtered queries by the superset user and the relevant tables, which revealed a chain of inefficient views that weren't part of our dbt project. Using Claude 3.5, I generated proper staging and intermediate models to replace these views. After materializing the data and adding tests, I discovered that the original views had several bugs that were affecting dashboard accuracy.
+
+I would like to ask the community - has anyone else tried using query logs to guide their data modeling decisions? Why you decided to analyze query logs? What is your company and data team looks like? What worked/didn't work? Also I would love to hear your thoughts on this approach! Also happy to share more details about the implementation if anyone's interested.
+
+P.S. The tool is still in development, but I'm considering open-sourcing it if others find this approach useful. II suspect that the user test would be very tough because this is my first time doing something like this, and it's very needed.",8,1,inner_mongolia,2025-02-24 17:33:46,https://www.reddit.com/r/dataengineering/comments/1ix7q17/querylogdriven_approach_to_data_modeling/,False,False,False,False
+1ixwoz2,Our Journey with LLMs and Data Warehousing: Practical Insights and Lessons Learned,"Hey everyone,
+
+I just read this article about how Large Language Models (LLMs) are changing the game for data warehousing, and I thought it was pretty interesting—especially since it touches on some of the work we’ve been doing. Thought I’d share it here in case anyone else is into this stuff.
+
+**Here are a few highlights:**
+
+**- LLM Integration Challenges:** We’ve been working on integrating LLMs into our data systems, but there are still some big challenges around data privacy and cost. For example, using external APIs like OpenAI can get super expensive when you’re dealing with large datasets. We’ve seen this firsthand.
+
+**- Databend's Approach:** We’ve started experimenting with open-source LLMs to keep data local and reduce costs. We’ve also been working on optimizing performance by switching from row-by-row processing to batch processing and using vectorization for better efficiency on low-spec hardware. It’s been a learning process, but we’re seeing some promising results.
+
+**- AI Functions:** We’ve developed some AI functions that can be called directly in SQL. Stuff like text similarity, data masking, entity extraction, and sentiment analysis. It’s cool how these functions can automate tasks that would otherwise require a lot of manual effort. For example, we used to mask sensitive data by hand, but now AI handles it much faster.
+
+**- Unstructured Data Processing:** We’re using LLMs to extract structured data from unstructured text. For example, it can pull out email addresses and addresses from a block of text and output them in JSON format. This has been super useful for our team.
+
+**- Real-World Use Cases:** There are some practical examples of how LLMs can be used for data analysis, like generating SQL queries from natural language requests. It’s cool to see how this tech can make data processing more accessible for people who aren’t SQL experts.
+
+The article goes into more detail about these topics, and it’s definitely worth a read if you’re interested in the technical side of LLMs and data. There’s still a lot of room for improvement and experimentation, but it’s exciting to see what’s already been done.
+
+Check it out if you have a few minutes: \[[Read the full article here](https://medium.com/@databend/from-llm-to-data-warehousing-how-to-achieve-ai-driven-data-processing-and-analysis-aef1a5fab6ec)\]
+
+Would love to hear your thoughts on this!",6,2,DatabendCloud,2025-02-25 14:48:23,https://www.reddit.com/r/dataengineering/comments/1ixwoz2/our_journey_with_llms_and_data_warehousing/,False,False,False,False
+1ixq47j,Any startup idea around data ?,"Just curious - has anyone here thought about building a startup in the data world? I'm kicking around a few ideas and wondering if others have considered it too.
+
+Let me know , if you want to discuss? 📩
+
+Here are the ideas i have in mind :
+
+1.As unstructured data is increasing, we need processses , store , use them for analytics , Ml ,AI. Current market has Vector databases , but not complete database for storing and writing querying with images, audio and for ETL as well.
+
+
+2.Often small business owner sell products on multiple places like shopify,Amazon etc ,Building an unified platform for multistore , analyze all data at one place , AI , Marketing strategies.
+",4,11,sociallmediastoree,2025-02-25 08:17:18,https://www.reddit.com/r/dataengineering/comments/1ixq47j/any_startup_idea_around_data/,False,False,False,False
+1ixp5z2,SAP to Databricks,"Hi All,
+
+We have S4hana system as a source and currently using Sap bw for data warehousing.
+
+Our project want to try feasibility of datasphere and databricks. I am assigned to do POC on databricks with S4 hana as a source.Needed some ideas on this?
+
+Has anyone migrated to Databricks? How do use databricks ? Can we do all the complex calculation in databricks and CDC? 
+
+Any challenges faced ??
+
+With sap business data cloud , do we need datasphere?? as we can do same thing in databricks, right ?",3,10,Then_Screen_2575,2025-02-25 07:08:14,https://www.reddit.com/r/dataengineering/comments/1ixp5z2/sap_to_databricks/,False,False,False,False
+1ixxj14,Udemy Best DE Course(s) or Instructor(s),"Looking for some good courses or instructors on Udemy to pick up DE experience and upskill. Areas of primary interest Azure, Databricks, Data Factory, Python, Fabric, Snowflake SQL, Areas of secondary interest Airflow, Docker, other DE tools.",3,1,Amar_K1,2025-02-25 15:24:26,https://www.reddit.com/r/dataengineering/comments/1ixxj14/udemy_best_de_courses_or_instructors/,False,False,False,False
+1ix7fwl,DBT YML Inheritance,"I am beggining to use dbt and it is being great. The only thing that being a bit unpleasant is the size of the schema.yml file.
+
+I have one warehouse, and I wanted to use one yml for the warehouse configuration properties and use this single file to be imported in more table specific.
+
+The ideia is to segment the tables in different files so it can be more readable and instead of copying and pasting the same config over and over. Put the default config in one file that is imported by others.
+
+Do anyone know how to do this?",3,3,IndependentNet5042,2025-02-24 17:22:23,https://www.reddit.com/r/dataengineering/comments/1ix7fwl/dbt_yml_inheritance/,False,False,False,False
+1ixx534,Help with Airbyte Google BigQuery destination.,"Hello I could use some help with a Google BigQuery destination for Airbyte that I am not sure if it is loading data correctly.
+
+The setup is a SQL Server database as the data source in GCP, Airbyte running locally, and Google BigQuery as the destination. Airbyte reports no issues, and I am able to see data loaded into BigQuery but only in the `airbyte_internal` dataset, and not my configured final dataset `raw_data`.
+
+Everything reports with no errors, but from all the tutorials I have seen / documentation data should be in my final dataset, which would then be what I can use further down the pipeline for transformations and visualizations.
+
+Any ideas what might be the issue, or if everything is in fact working as expected? All of my infrastructure is managed via Terraform templates below. Airbyte reports no errors, yet I have no tables in raw\_data just an empty dataset. I have made sure the service account for airbyte has all needed permissions, and even gave it admin for a run to test.
+
+    resource ""airbyte_source_mssql"" ""sql_server"" {
+      configuration = {
+        database = var.database
+        host     = var.sql_source_host
+        password = var.sql_source_user_password
+        port     = 1433
+        replication_method = {
+          scan_changes_with_user_defined_cursor = {}
+        }
+        ssl = false
+        ssl_mode = {
+          preferred = {}
+        }
+        tunnel_method = {
+          no_tunnel = {}
+        }
+        username = var.sql_source_username
+      }
+      name         = ""SQL Server 2019 Standard""
+      workspace_id = var.airbyte_workspace_id
+    }
+    
+    resource ""airbyte_destination_bigquery"" ""bigquery"" {
+      configuration = {
+        big_query_client_buffer_size_mb = 15
+        credentials_json                = var.bigquery_credentials
+        dataset_id                      = var.dataset_id # raw_data
+        dataset_location                = var.region
+        disable_type_dedupe             = true
+        loading_method = {
+          batched_standard_inserts = {}
+        }
+        project_id              = var.project_id
+        raw_data_dataset        = ""airbyte_internal""
+        transformation_priority = ""batch""
+      }
+      name          = ""BigQuery Destination""
+      workspace_id  = var.airbyte_workspace_id
+    }
+
+    resource ""airbyte_connection"" ""mssql_bigquery_connection"" {
+      data_residency                       = ""auto""
+      destination_id                       = airbyte_destination_bigquery.bigquery.destination_id
+      name                                 = ""SQL Server --> BigQuery""
+      non_breaking_schema_updates_behavior = ""propagate_columns""
+      prefix                               = ""table_""
+      source_id                            = airbyte_source_mssql.sql_server.source_id
+      status                               = ""active""
+      schedule = {
+        schedule_type = ""cron""
+        # Sync nightly at midnight
+        cron_expression = ""0 0 0 * * ?""
+      }
+    
+      # Configure each table we want to sync as a stream
+      configurations = {
+        streams = [
+          {
+            name      = ""accounts""
+            sync_mode = ""full_refresh_overwrite""
+          },
+          {
+            name      = ""billing""
+            sync_mode = ""full_refresh_overwrite""
+          },
+          {
+            name      = ""loans""
+            sync_mode = ""full_refresh_overwrite""
+          },
+          {
+            name      = ""transactions""
+            sync_mode = ""full_refresh_overwrite""
+          },
+          {
+            name      = ""users""
+            sync_mode = ""full_refresh_overwrite""
+          }
+        ]
+      }
+    }",2,3,hugo-s,2025-02-25 15:07:48,https://www.reddit.com/r/dataengineering/comments/1ixx534/help_with_airbyte_google_bigquery_destination/,False,False,False,False
+1ixkj7u,Basic ETL Question,"Hello,
+
+  
+I am very new to data engineering (actually not a data engineer at all). But I have a business use case where I have to extract data from my client's cloud warehouse, transform it into a standard format that my application can consume as well as join it with external data from APIs, other databases etc. Then finally load it into S3 before my application consumes this data. So basically a reverse ETL.
+
+I am deciding between doing all this in python with Airflow for scheduling versus using Apache Spark, again with Airflow for scheduling. From what I read it seems like Spark might be overkill? The number of rows ingested from the client's warehouse would be about 1-3 million records. Is there another way to do this? Am i going about it the correct way? Thanks and really appreciate the knowledge from actual data engineers, as I am not one. ",4,3,Lanky_Seaworthiness8,2025-02-25 02:42:24,https://www.reddit.com/r/dataengineering/comments/1ixkj7u/basic_etl_question/,False,False,False,False
+1ixj4k9,How to model my data warehouse schema?,"I'm sure this question is asked constantly here, apologies.
+
+I'm a long time software and infrastructure engineer, now trying to wear a data engineer hat.
+
+I am trying to establish my grain and fact table(s), but I have data that I'm not sure what to do with.
+
+I have shipments composed of any number of items, which id like to include in my grain. The shipments have bills that include costs, fees, etc. The bills are *not* itemized and the associated bill facts are at the shipment level only.
+
+Would you:
+
+1. Denormalize the billing information and include it on all shipment items for a given shipment
+2. Have a separate billing fact table of some kind
+3. Something else altogether
+
+Thanks!
+",2,2,TakeThreeFourFive,2025-02-25 01:33:33,https://www.reddit.com/r/dataengineering/comments/1ixj4k9/how_to_model_my_data_warehouse_schema/,False,False,False,False
+1ixd99k,Seeking advice: Gartner vs Nielsen ?,"Hey everyone,
+I’m a data engineer with 3 YOE, currently serving my notice period at Deloitte. I have two offers on the table  - one from Nielsen and the other from Gartner. Both roles are quite similar in terms of job responsibilities and compensation, at least based on the job descriptions and my inter-views.
+
+The main difference is the location: Gartner's office is in my hometown, while Nielsen’s is in Bangalore (which I am open to relocate).
+Since the offers are otherwise comparable, I’m looking for insights into company culture, growth opportunities, appraisals, and overall work-life balance to help me make a decision.
+
+If anyone has experience with either company, I’d really appreciate your thoughts!
+
+",2,1,Dark-Parmatma,2025-02-24 21:16:44,https://www.reddit.com/r/dataengineering/comments/1ixd99k/seeking_advice_gartner_vs_nielsen/,False,False,False,False
+1ix9zlr,Best Approach for KPI Tables in Analytics Zone – One Big Table or Process-Specific Tables?,"Question:
+I’m working on a data architecture where multiple source tables (customers, sessions, contracts, services, bills) go through staging → bronze → gold layers before reaching the analytics zone, which is KPI-driven and supports dashboards.
+
+We have:
+	1.	A Business Performance dashboard that aggregates KPIs across all processes.
+	2.	Process-specific dashboards for detailed insights.
+
+One approach is to create a single KPI table in the analytics zone containing all KPIs for every process, then derive separate tables from it for individual dashboards. Another approach is to maintain separate fact tables for each process.
+
+Considering performance, maintainability, and best practices, which approach would be better? Would a consolidated table introduce complexity, or would it streamline analysis?",2,4,Seeker1045,2025-02-24 19:04:52,https://www.reddit.com/r/dataengineering/comments/1ix9zlr/best_approach_for_kpi_tables_in_analytics_zone/,False,False,False,False
+1ixzdm3,DBT Snapshot Yaml Format issue,"Hey yall,  
+  
+Im running into issues when trying to set up Snapshots in yaml format. Its my understanding that this config below is all I should need in the current version of dbt (im using dbt cloud), but when i run `dbt snapshot` I get no errors but the snapshot table doesnt build. I also noticed relation is underlined and has the message `property relation is not allowed.` Is there additional configuration that needs to be done? I thought this was potentially a dbt versioning issue but im using the ""latest"" versions in both of my environments.
+
+    snapshots:
+      - name: snapshot_shops_test
+        relation: source('snowflake_postgres', 'shops')
+        description: test description
+        config:
+          database: analytics_prod
+          schema: generate_schema_name('snapshots')
+          alias: _alias
+          strategy: check
+          unique_key: shop_number
+          check_cols: 
+            - ccc_id
+          dbt_valid_to_current: ""to_date('9999-12-31')""",1,0,biga410,2025-02-25 16:42:11,https://www.reddit.com/r/dataengineering/comments/1ixzdm3/dbt_snapshot_yaml_format_issue/,False,False,False,False
+1ixypag,ORM and schemachange,"Hi all,
+
+Cross posting from r/snowflake
+
+I'm new into Data engineering space. Previous life was Java dev and finding it a bit difficult to right solutions. How do you all manage your snowflake table objects in python along with schemachange? 
+
+Separately, one could use Sqlalchemy to define table objects and schemachange to apply changes to your snowflake db.
+
+I have been struggling to find a solution to find that works for both. 
+
+We have various datasets  in S3 that we want to load into snowflake. We managed to do the one time load with infer schema but with schema constantly changing on the S3 files, it's becoming a bit much to just manage the create and alter statements 
+
+How do you all solve for this? Is dbt the right tool? Management wants to do terraform all the way, but reading here most of you suggest to not manage tables and views with that approach. 
+
+Appreciate all the help and inputs. ",2,1,mediumpike,2025-02-25 16:14:20,https://www.reddit.com/r/dataengineering/comments/1ixypag/orm_and_schemachange/,False,False,False,False
+1ixyhkd,Courses about data transformations,"Hello.
+
+So, I recently got my first internship, which will be this summer. It seems that my primary job will be to prepare the company's data for AI/ML analysis. Are there any good courses/books I should pick up to prepare for the internship? 
+
+Currently I'm considering picking up this book:  
+1.[ Fundamentals of Data Engineering: Plan and Build Robust Data Systems](https://www.amazon.ca/Fundamentals-Data-Engineering-Robust-Systems/dp/1098108302)  
+And doing 1 of these course:  
+1. [HarvardX: Introduction to Data Science with Python](https://www.edx.org/learn/data-science/harvard-university-introduction-to-data-science-with-python?index=product&queryId=254cfd8538b386ff5f3c5b423a503229&position=2#syllabus)
+
+2. [AI: Spark, Hadoop, and Snowflake for Data Engineering](https://www.edx.org/learn/computer-science/pragmatic-ai-labs-spark-hadoop-and-snowflake-for-data-engineering)
+
+Would this be a good start? (I'm fairly comfortable with SQL and I want to learn about the other aspects of it).",2,4,misternogetjoke,2025-02-25 16:05:23,https://www.reddit.com/r/dataengineering/comments/1ixyhkd/courses_about_data_transformations/,False,False,False,False
+1ixt1lx,Algebraic Data Types in Database: Where Variant Data Can Help,,1,0,tison1096,2025-02-25 11:41:49,https://www.scopedb.io/blog/algebraic-data-type-variant-data,False,False,False,False
+1ixm062,Event Driven Architecture Data Hunting Help,"I work in an event driven environment as a data engineer. There is so much business logic that lives within microservices and I often get sent on wild goose chase after wild goose chase to understand the raw events. 
+
+Any tips/tooling you all leverage that helps solve for this? ",1,5,Good-Run8784,2025-02-25 03:56:45,https://www.reddit.com/r/dataengineering/comments/1ixm062/event_driven_architecture_data_hunting_help/,False,False,False,False
+1ixhfqn,Need a mentorship,"Hello everyone,
+
+I'm 27 years old and graduated last year with a degree in Computer Science. Currently, I work as an **Infotainment Validation Engineer** at an automotive company, but I'm considering a career transition into **Data Engineering**. My current job is based in SoCal, and making about 68k a year.
+
+**My Background**
+
+* Worked as a **Project Manager** for a year in realestate startup company.
+* **Part-time Data Analyst** for over two years.
+* Initially aimed for **Business Analyst, Data Analyst, or Data Science roles**, but struggled to secure an offer for 3 months. I got my current job even though it wasn't a role that I was looking for only because I needed financial stability to save for my wedding.
+
+**My Goal**
+
+The main reason I want to become a Data Engineer is that it offers strong career growth and financial stability. I also genuinely enjoyed working as a Data Analyst, even though the roles are quite different.
+
+I want to take data more seriously and contribute meaningfully to a team or organization. My wife and I are planning to start a family in three years, and I want to be in a better position as a provider by then. Right now, I feel **lost**—I don’t love my current job, and it’s not helping to grow my career in the data field.
+
+I’m willing to put in the effort to transition into Data Engineering, but if it’s not a viable path for me, I may consider building a career within the automotive industry instead.
+
+**My Plan & Concerns**
+
+I’m planning to pursue an **online Master’s degree** while working full time—either:
+
+* **MS in Data Science at UT Austin**
+* **MS in Computer Science at Georgia Tech**
+
+After completing my degree, I want to transition into a **Data Engineer** role and relocate to **Texas** for a more affordable cost of living. However, I had a tough time finding a job after graduation, so I’m hesitant about entering the job market again.
+
+**Questions & Advice Needed**
+
+1. **Is a Master’s degree in CS or DS worth it for getting a Data Engineer job?**
+   * Does it significantly improve job prospects?
+2. **How do I gain relevant experience?**
+   * Most Data Engineer roles I’ve seen require **3+ years of experience**, and I haven’t found many **entry-level** positions.
+   * Would experience as a **Data Analyst or Data Scientist** be considered relevant?
+3. **What skills should I focus on before starting my Master’s?**
+   * Would **AWS Data Engineer Associate Certification** help?
+   * Should I invest time in **Databricks or Snowflake** courses?
+   * Would practicing **SQL on LeetCode** be beneficial?
+
+I’d really appreciate any insights or mentoring from those who have been in a similar situation or have experience in the field. Thank you!",2,8,lilikoi_lilikoi,2025-02-25 00:14:07,https://www.reddit.com/r/dataengineering/comments/1ixhfqn/need_a_mentorship/,False,False,False,False
+1ixaloq,"tools to enable data products, hub and spoke or data mesh","Hi all
+
+  
+Does any one has success implementing data products either thru hub/spoke or data mesh. Appreciate any expereince with out of box tools,  intersted in aws cloud platform",1,3,Proof_Sail_1,2025-02-24 19:29:53,https://www.reddit.com/r/dataengineering/comments/1ixaloq/tools_to_enable_data_products_hub_and_spoke_or/,False,False,False,False
+1ixak6u,DAMA CDMP: Can I use a free PDF of the DMBOK (Revised)?,"From anyone's recent experience of using the PDF version of the DMBOK in the Honorlock-proctored exam...
+
+1. Will I get penalised for using a free version of the book that I didn't buy from the original site? I'm assuming I'll have to open the pdf on the laptop I'm doing the test on.
+2. Is it okay if I use multiple screens (one for the pdf and one for the exam software itself)?
+
+The thing is that there is a footer below every page reads something like ""Order 48726 by John Doe on February 22, 2025"".
+
+I've purchased the physical copy of the DMBOK (Revised) to prep for the CDMP exam, but after much online advise I realised I made a mistake and should have instead got the PDF version. I don't want to spend $80 to buy the pdf version, so I got a free pdf version which I downloaded off some site.
+
+I really appreciate any advice. Thanks!",1,0,datasplain,2025-02-24 19:28:08,https://www.reddit.com/r/dataengineering/comments/1ixak6u/dama_cdmp_can_i_use_a_free_pdf_of_the_dmbok/,False,False,False,False
+1ixxnlz,Docker hub and login for public images?,"I may have missed a memo on this, but I don't seem to be able to pull hello-world or my airflow:2.8.4 image any longer, it gives a 401 error. 
+
+So I logged into a free account using docker desktop (I'm running on wsl2 but see the same thing on windows cli).  But being logged into docker desktop doesn't change things.
+
+I ran docker login, went through the code based login, which works from the web UI side, but then the CLI says ""bad username or password"".
+
+This just started happening Friday I think, I thought something was down.  
+
+Did I miss something?",0,0,reelznfeelz,2025-02-25 15:29:50,https://www.reddit.com/r/dataengineering/comments/1ixxnlz/docker_hub_and_login_for_public_images/,False,False,False,False
+1ixugub,Creating views in databricks for Power BI,"Firstly, please forgive me if I don’t know the terminology. I’ll try my best to explain what I want to do. 
+
+The issue I’m having is I created a notebook with a series of views. I want to be able to use the views in Power BI. As in I want to call the views like a table, but not put the sql into power query. I want databticks to handle the transformations. I’ve created the views in databricks but I’m not sure how to make them accessible with Power BI. I’ve tried googling and AI but no luck yet. Any help is appreciated. 
+
+Again: there are multiple views that will correspond to different tables in Power BI, that are in a notebook and I want to be able to use that notebook for Power BI. 
+
+Thanks in advance. ",0,6,hijkblck93,2025-02-25 13:03:10,https://www.reddit.com/r/dataengineering/comments/1ixugub/creating_views_in_databricks_for_power_bi/,False,False,False,False
+1ixq8dj,Data engineer case studies,"Hello
+Can someone share examples of data engineering case study interviews?
+Have a case study round at Apple and have no idea what to expect
+
+Thanks",0,0,Puzzleheaded-Ad-1343,2025-02-25 08:25:58,https://www.reddit.com/r/dataengineering/comments/1ixq8dj/data_engineer_case_studies/,False,False,False,False
+1ixqgyh,Amazon DE intern vs Meta DE intern,"Hello guys ,
+
+Please help me decide between these two offers .
+
+Please comment your reasons too.
+
+Thanks
+
+[View Poll](https://www.reddit.com/poll/1ixqgyh)",0,5,Curious_cat1420,2025-02-25 08:43:17,https://www.reddit.com/r/dataengineering/comments/1ixqgyh/amazon_de_intern_vs_meta_de_intern/,False,False,False,False
+1ixsgs0,My DP-700 Exam Was Revoked… But I Still Passed!,"When I took the beta exam for DP-700, everything seemed fine - until technical issues kicked in. The proctor told me my exam was revoked, and I thought all my effort was wasted.
+
+ 
+
+But here's the twist… I actually passed! 
+
+ 
+
+In my latest video, I break down:
+
+  •  The exact technical issue that caused my exam to be revoked
+
+  •  What YOU should avoid to prevent the same problem
+
+  •  How I ended up passing despite the chaos!
+
+ 
+
+If you're planning to take a certification exam, don't let this happen to you. Watch now and be prepared!
+
+
+
+[https://youtu.be/6ISvRyQLL\_o](https://youtu.be/6ISvRyQLL_o)",0,0,TybulOnAzure,2025-02-25 11:04:11,https://www.reddit.com/r/dataengineering/comments/1ixsgs0/my_dp700_exam_was_revoked_but_i_still_passed/,False,False,False,False
